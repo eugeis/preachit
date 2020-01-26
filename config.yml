@@ -1,0 +1,29 @@
+baseURL: http://bible.eisler.tech/
+
+languageCode: de-De
+title: Bewertung einer Predigt
+theme: hugo-feedback-theme
+
+languageCode: de-De
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+
+languages:
+  de:
+    languageName: Deutsch
+    params:
+      linkedin: https://linkedin.com/whoever
+    title: Bewertung einer Predigt
+    weight: 1
+  en:
+    languageName: English
+    params:
+      linkedin: https://linkedin.com/fr/whoever
+    title: Evaluation of a sermon
+    weight: 2
+  ru:
+    languageName: Русский
+    params:
+      linkedin: https://linkedin.com/fr/whoever
+    title: Оценка проповеди
+    weight: 3

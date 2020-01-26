@@ -1,0 +1,3 @@
+[submodule "themes/hugo-feedback-theme"]
+	path = themes/hugo-feedback-theme
+	url = https://github.com/eugeis/hugo-feedback-theme.git

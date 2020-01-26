@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  nginx:
+    image: nginx
+    #ports:
+    # - 80:80
+    volumes:
+      - /home/ee/hugo/preachit/public:/usr/share/nginx/html:ro
+    networks:
+      - net
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.nginx.port=80
+        - traefik.frontend.entryPoints.http.redirect=https
+        - traefik.frontend.rule=Host:preachit.eisler.tech
+
+networks:
+  net:
+    external: true
