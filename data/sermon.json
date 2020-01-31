@@ -1,95 +1,119 @@
 {
-    "questions": [
+    "Gesamteindruck" : [
         {
-            "question": "In wie weit ist der Einstieg gelungen?",
-            "hint": "kurz, spannend,...",
-            "note": "Was ist beim Einstieg hängen geblieben?",
-            "background": ""
+            "keyword": "Aufmerksamkeit",
+            "question": "Die Predigt hat meine Aufmerksamkeit:",
+            "rating": {
+                "type": "linear",
+                "scala": ["nicht geweckt", "zum Teil", "überwiegend", "gepackt", "durchgehend"]
+            }
         }, {
-            "question": "In wie weit ist die Struktur der Predigt klar?",
-            "hint": "Sínd Hauptpunkte klar? Übergänge gelungen?",
-            "note": "Welche Hauptpunkte beinhaltete die Predigt?",
-            "background": ""
+            "keyword": "Vorbereitung",
+            "question": "Auf mich wirkte dir Predigt:",
+            "rating": {
+                "type": "linear",
+                "scala": ["unvorbereitet", "eher unvorb.", "vorber.", "gut vorber.", "sehr gut vorber."]
+            }
+        }
+    ],
+    "Struktur" : [
+        {
+            "keyword": "Predigtlänge",
+            "question": "Die Predigt fand ich",
+            "rating": {
+                "type": "dual",
+                "scala": ["zu kurz", "eher kurz", "optimal", "eher lang", "zu lang"]
+            }
         }, {
-            "question": "In wie weit ist das Verhältnis eigenen Beispielen zu der biblischen Botschaft ausgewogen?",
-            "hint": "Eigene Beispiele überwiegen nicht die Botschaft?",
-            "note": "",
-            "background": ""
+            "keyword": "Einleitung",
+            "question": "Die Einleitung fand ich",
+            "rating": {
+                "type": "dual",
+                "scala": ["nicht vorhand.", "eher kurz", "einleitend", "eher lang", "zu ausschweifend"]
+            }
         }, {
-            "question": "Vorlesegeschwindigkeit der Bibelverse ausgewogen?",
-            "hint": "zu schnell?",
-            "note": "",
-            "background": ""
+            "keyword": "Roter Faden",
+            "question": "Roter Faden und Hauptpunkte waren für mich",
+            "rating": {
+                "type": "linear",
+                "scala": ["nicht erkennbar", "selten erkennbar", "erkennbar", "klar", "sehr klar"]
+            }
         }, {
-            "question": "Unnötige Sätze wurden vermieden?",
-            "hint": "Ich bin nicht vorbereitet; Ich lese aus Zeitgründen es nicht vor; Das Wetter ist gut; usw.",
-            "note": "",
-            "background": ""
+            "keyword": "Schluss",
+            "question": "Den Schluss fand ich",
+            "rating": {
+                "type": "dual",
+                "scala": ["abrupt", "eher abrupt", "abschließend", "eher lang", "zu ausschweifend"]
+            }
+        }
+    ],
+    "Inhalt" : [
+        {
+            "keyword": "Relevanz",
+            "question": "Die Predigt war für mich/uns",
+            "rating": {
+                "type": "linear",
+                "scala": ["irrelevant", "eher irrel.", "relevant", "sehr relevant", "lebensveränd."]
+            },
+            "note": ""
         }, {
-            "question": "Füllwörter wurden gemieden?",
-            "hint": "",
-            "note": "",
-            "background": ""
+            "keyword": "Praxis",
+            "question": "Sagt die Predigt was ich praktisch umsetzten kann?",
+            "rating": {
+                "type": "linear",
+                "scala": ["nein", "so ungefähr", "ja", "ausführlich", "sehr ausführ."]
+            },
+            "note": ""
         }, {
-            "question": "In wie weit ist der Abschluss der Predigt gelungen?",
-            "hint": "kurz, klar, ...",
-            "note": "",
-            "background": ""
+            "keyword": "Komplexität",
+            "question": "Ich empfand die Predigt als",
+            "rating": {
+                "type": "dual",
+                "scala": ["zu einfach", "eher einfach", "verständlich", "eher komplex", "zu komplex"]
+            },
+            "note": ""
         }, {
-            "question": "Rhetorik: Lautstärke war angemessen?",
-            "hint": "",
-            "note": "",
-            "background": ""
+            "keyword": "Beispiele",
+            "question": "Wurden Beispiele zur Verdeutlichung genutzt?",
+            "rating": {
+                "type": "dual",
+                "scala": ["zu wenig", "eher wenig", "optimal", "viel", "zu viel"]
+            },
+            "note": ""
+        }
+    ], "Kommunikation mit dem Zuhörer" : [
+        {
+            "keyword": "Dynamik",
+            "question": "Ich empfang die Sprechgeschwindigkeit als",
+            "rating": {
+                "type": "dual",
+                "scala": ["zu langsam", "eher langsam", "optimal", "eher schnell", "zu schnell"]
+            },
+            "note": ""
         }, {
-            "question": "Tempo war angemessen?",
-            "hint": "",
-            "note": "",
-            "background": ""
+            "keyword": "Lautstärke",
+            "question": "Ich empfand die Lautstärke der Stimme als",
+            "rating": {
+                "type": "dual",
+                "scala": ["zu leise", "eher leise", "optimal", "eher laut", "zu laut"]
+            },
+            "note": ""
         }, {
-            "question": "Botschaft enthält eine Tiefe?",
-            "hint": "",
-            "note": "",
-            "background": ""
+            "keyword": "Stimmodulation",
+            "question": "Ich empfand die Stimmlage",
+            "rating": {
+                "type": "dual",
+                "scala": ["zu monoton", "eher monoton", "optimal", "viel Pathos", "zu viel Pathos"]
+            },
+            "note": ""
         }, {
-            "question": "Schwierigkeitsgrad der Predigt war angemessen?",
-            "hint": "",
-            "note": "",
-            "background": ""
-        }, {
-            "question": "Anschaulichkeit",
-            "hint": "",
-            "note": "",
-            "background": ""
-        }, {
-            "question": "Länge der Predigt war angemessen",
-            "hint": "",
-            "note": "",
-            "background": ""
-        }, {
-            "question": "Kommunikation mit den Zuhörern ist gelungen",
-            "hint": "",
-            "note": "",
-            "background": ""
-        }, {
-            "question": "Konkrete Anwendung ist vorhanden",
-            "hint": "Wo, warum, wann, was, wie - zu tun?",
-            "note": "",
-            "background": ""
-        }, {
-            "question": "Erscheinungsbild war angemessen?",
-            "hint": "",
-            "note": "",
-            "background": ""
-        }, {
-            "question": "In wie weit ist die Hinführung zum Gebet gelungen?",
-            "hint": "",
-            "note": "",
-            "background": ""
-        }, {
-            "question": "Adressierung war vorhanden?",
-            "hint": "z.B. Wenn du dich für Gott noch nicht entschieden hast…",
-            "note": "",
-            "background": ""
+            "keyword": "Erscheinungsbild",
+            "question": "Der Prediger erschien für mich optisch",
+            "rating": {
+                "type": "dual",
+                "scala": ["underdressed", "eher underdr.", "optimal", "eher overdr.", "overdressed"]
+            },
+            "note": ""
         }
     ]
 }
