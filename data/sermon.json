@@ -81,7 +81,7 @@
             "question": "Die Aussagen der Predigt waren biblisch begründet?",
             "rating": {
                 "type": "linear",
-                "scala": ["nein", "aus dem Kontext gerissen", "teilweise", "ja", "sehr"]
+                "scala": ["nein", "aus dem Kontext gerissen", "teilweise", "gut", "sehr gut"]
             }
         }
     ], "Kommunikation mit dem Zuhörer" : [
