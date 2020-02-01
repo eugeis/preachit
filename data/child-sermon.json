@@ -1,0 +1,84 @@
+{
+    "" : [
+        {
+            "keyword": "",
+            "question": "Die Anzahl der Worte/ Sätze der gesamten Kinderpredigt war für Kinder entsprechend?",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zuviel", "etwas zu viel", "optimal", "zu wenig", "viel zu wenig"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Die Schnelligkeit der Sprechens war für Kinder entsprechend?",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zu schnell", "zu schnell", "optimal", "zu langsam", "viel zu langsam"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Die Komplexität der Sprache war für Kinder entsprechend?",
+            "note": "Schwierige Worte oder religiöse Fachbegriffe ('die Welt', ... ) gemieden oder erklärt",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zu kompliziert", "zu kompliziert", "optimal", "zu Kleinkindhaft", "viel zu Kleinkindhaft"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Die Länge war für eine Kinderpredigt entsprechend / Kinder waren bis zum Schluss aufmerksam?",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zu lang", "zu lang", "optimal", "zu kurz", "viel zu kurz"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Die Anzahl und Länge der Bibelstelle/n war für die Kinder zu verstehen?",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zu lang/viele", "zu lang/viele", "optimal", "zu kurz", "gar keine Bibelstelle"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Veranschaulichung war vorhanden und unterstreicht die Botschaft?",
+            "note": "visuell, akustisch,...; wiederum lenkt nicht von Botschaft ab, nur Show,...",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zu viel", "zu viel", "optimal", "zu wenig", "viel zu wenig"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Merksatz oder Slogan wurde genannt und mehrfach wiederholt",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zu oft", "zu oft", "optimal", "zu wenig", "kein Merksatz erkennbar"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Theologische Vereinfachung des biblischen Gedanken/Prinzips für die Kinder war richtig",
+            "rating": {
+                "type": "dual",
+                "scala": ["zu stark vereinfacht", "zu vereinfacht", "optimal", "zu kompliziert", "keine Erklärung/Vereinfachung"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Aufbauende Predigtabschluss mit Lösung/Ausweg/ 'was zu tun ist' / Herausforderung für eine Entscheidung war vorhanden",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zu negativ", "zu viel", "optimal", "zu wenig", "nicht vorhanden"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Predigt ist interaktiv. Kinder wurden mit Fragen oder durch Mitmachen aufmerksam gehalten.",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zuviel", "zu viel", "optimal", "zu wenig", "viel zu wenig"]
+            }
+        }, {
+            "keyword": "",
+            "question": "Die Kinderpredigt hat auch die Erwachsenen herausgefordert / war ihnen zum Segen",
+            "rating": {
+                "type": "dual",
+                "scala": ["viel zuviel", "zu viel", "optimal", "zu wenig", "viel zu wenig"]
+            }
+        }
+    ]
+}

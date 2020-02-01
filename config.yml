@@ -4,6 +4,11 @@ languageCode: de-De
 title: Bewertung einer Predigt
 theme: hugo-feedback-theme
 
+params:
+  #emailbridge: http://localhost:8080
+  showKeyword: false
+
+
 languageCode: de-De
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
