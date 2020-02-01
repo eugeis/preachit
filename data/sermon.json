@@ -9,7 +9,7 @@
             }
         }, {
             "keyword": "Vorbereitung",
-            "question": "Auf mich wirkte dir Predigt:",
+            "question": "Auf mich wirkte die Predigt:",
             "rating": {
                 "type": "linear",
                 "scala": ["unvorbereitet", "eher unvorb.", "vorber.", "gut vorber.", "sehr gut vorber."]
@@ -58,7 +58,7 @@
             "note": ""
         }, {
             "keyword": "Praxis",
-            "question": "Sagt die Predigt was ich praktisch umsetzten kann?",
+            "question": "Beinhaltet die Predigt was ich praktisch umsetzten kann?",
             "rating": {
                 "type": "linear",
                 "scala": ["nein", "so ungefähr", "ja", "ausführlich", "sehr ausführ."]
@@ -74,7 +74,7 @@
             "note": ""
         }, {
             "keyword": "Beispiele",
-            "question": "Wurden Beispiele zur Verdeutlichung genutzt?",
+            "question": "Dienten Beispiele zur Verdeutlichung?",
             "rating": {
                 "type": "dual",
                 "scala": ["zu wenig", "eher wenig", "optimal", "viel", "zu viel"]
@@ -84,7 +84,7 @@
     ], "Kommunikation mit dem Zuhörer" : [
         {
             "keyword": "Dynamik",
-            "question": "Ich empfang die Sprechgeschwindigkeit als",
+            "question": "Ich empfand die Sprechgeschwindigkeit als",
             "rating": {
                 "type": "dual",
                 "scala": ["zu langsam", "eher langsam", "optimal", "eher schnell", "zu schnell"]
