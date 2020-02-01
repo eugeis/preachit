@@ -77,7 +77,7 @@
                 "scala": ["zu wenig", "eher wenig", "optimal", "viel", "zu viel"]
             }
         }, {
-            "keyword": "Auslegung / Bibel Fundiertheit",
+            "keyword": "Bibelauslegung",
             "question": "Die Aussagen der Predigt waren biblisch begründet?",
             "rating": {
                 "type": "linear",
