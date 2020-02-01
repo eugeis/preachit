@@ -54,32 +54,35 @@
             "rating": {
                 "type": "linear",
                 "scala": ["irrelevant", "eher irrel.", "relevant", "sehr relevant", "lebensveränd."]
-            },
-            "note": ""
+            }
         }, {
             "keyword": "Praxis",
             "question": "Beinhaltete die Predigt was ich praktisch umsetzten kann?",
             "rating": {
                 "type": "linear",
                 "scala": ["nein", "so ungefähr", "ja", "ausführlich", "sehr ausführ."]
-            },
-            "note": ""
+            }
         }, {
             "keyword": "Komplexität",
             "question": "Ich empfand die Predigt als",
             "rating": {
                 "type": "dual",
                 "scala": ["zu einfach", "eher einfach", "verständlich", "eher komplex", "zu komplex"]
-            },
-            "note": ""
+            }
         }, {
             "keyword": "Beispiele",
             "question": "Dienten Beispiele zur Verdeutlichung?",
             "rating": {
                 "type": "dual",
                 "scala": ["zu wenig", "eher wenig", "optimal", "viel", "zu viel"]
-            },
-            "note": ""
+            }
+        }, {
+            "keyword": "Auslegung / Bibel Fundiertheit",
+            "question": "Die Aussagen der Predigt waren biblisch begründet?",
+            "rating": {
+                "type": "linear",
+                "scala": ["nein", "aus dem Kontext gerissen", "teilweise", "ja", "sehr"]
+            }
         }
     ], "Kommunikation mit dem Zuhörer" : [
         {
