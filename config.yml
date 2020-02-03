@@ -1,11 +1,11 @@
 baseURL: https://preachit.reguel.de
 
 languageCode: de-De
-title: Bewertung einer Predigt
+title: Predigtbewertung
 theme: hugo-feedback-theme
 
 params:
-  #emailbridge: http://localhost:8080
+  emailbridge: http://localhost:8080
   showKeyword: false
 
 
@@ -18,13 +18,13 @@ languages:
     languageName: Deutsch
     params:
       linkedin: https://linkedin.com/whoever
-    title: Bewertung einer Predigt
+    title: Predigtbewertung
     weight: 1
   en:
     languageName: English
     params:
       linkedin: https://linkedin.com/fr/whoever
-    title: Evaluation of a sermon
+    title: Sermon Evaluation
     weight: 2
   ru:
     languageName: Русский

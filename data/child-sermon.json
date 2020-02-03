@@ -24,7 +24,8 @@
             }
         }, {
             "keyword": "",
-            "question": "Die Länge war für eine Kinderpredigt entsprechend / Kinder waren bis zum Schluss aufmerksam?",
+            "question": "Die Länge war für eine Kinderpredigt entsprechend?",
+            "note": "Kinder waren bis zum Schluss aufmerksam",
             "rating": {
                 "type": "dual",
                 "scala": ["viel zu lang", "zu lang", "optimal", "zu kurz", "viel zu kurz"]
