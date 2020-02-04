@@ -5,7 +5,7 @@ title: Predigtbewertung
 theme: hugo-feedback-theme
 
 params:
-  emailbridge: http://localhost:8080
+  emailbridge: https://emailbridge.reguel.de
   showKeyword: false
 
 
