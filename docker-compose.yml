@@ -3,18 +3,18 @@ version: '3.7'
 services:
   nginx:
     image: nginx
+    container_name: preachit
     #ports:
     # - 80:80
     volumes:
       - /home/ee/hugo/preachit/public:/usr/share/nginx/html:ro
     networks:
       - net
-    deploy:
-      labels:
-        - traefik.enable=true
-        - traefik.nginx.port=80
-        - traefik.frontend.entryPoints.http.redirect=https
-        - traefik.frontend.rule=Host:www.preachit.reguel.de,preachit.reguel.de
+    labels:
+      - traefik.enable=true
+      - traefik.nginx.port=80
+      - traefik.frontend.entryPoints.http.redirect=https
+      - traefik.frontend.rule=Host:www.preachit.reguel.de,preachit.reguel.de
 
 networks:
   net:
