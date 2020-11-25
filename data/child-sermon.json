@@ -2,21 +2,21 @@
     "" : [
         {
             "keyword": "",
-            "question": "Die Anzahl der Worte/ Sätze der gesamten Kinderpredigt war für Kinder entsprechend?",
+            "question": "Die Anzahl der Worte / Sätze der gesamten Kinderpredigt war für Kinder ...",
             "rating": {
                 "type": "dual",
-                "scala": ["viel zuviel", "etwas zu viel", "optimal", "zu wenig", "viel zu wenig"]
+                "scala": ["viel zu hoch", "etwas zu hoch", "optimal", "zu wenig", "viel zu wenig"]
             }
         }, {
             "keyword": "",
-            "question": "Die Schnelligkeit der Sprechens war für Kinder entsprechend?",
+            "question": "Die Schnelligkeit des Sprechens war für Kinder ...",
             "rating": {
                 "type": "dual",
                 "scala": ["viel zu schnell", "zu schnell", "optimal", "zu langsam", "viel zu langsam"]
             }
         }, {
             "keyword": "",
-            "question": "Die Komplexität der Sprache war für Kinder entsprechend?",
+            "question": "Die Komplexität der Sprache war für Kinder ...",
             "note": "Schwierige Worte oder religiöse Fachbegriffe ('die Welt', ... ) gemieden oder erklärt",
             "rating": {
                 "type": "dual",
@@ -24,7 +24,7 @@
             }
         }, {
             "keyword": "",
-            "question": "Die Länge war für eine Kinderpredigt entsprechend?",
+            "question": "Die Länge war für eine Kinderpredigt ...",
             "note": "Kinder waren bis zum Schluss aufmerksam",
             "rating": {
                 "type": "dual",
@@ -32,7 +32,7 @@
             }
         }, {
             "keyword": "",
-            "question": "Die Anzahl und Länge der Bibelstelle/n war für die Kinder zu verstehen?",
+            "question": "Die Anzahl und Länge der Bibelstelle/n war für die Kinder ...",
             "rating": {
                 "type": "dual",
                 "scala": ["viel zu lang/viele", "zu lang/viele", "optimal", "zu kurz", "gar keine Bibelstelle"]

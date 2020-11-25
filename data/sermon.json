@@ -57,7 +57,7 @@
             }
         }, {
             "keyword": "Praxis",
-            "question": "Beinhaltete die Predigt was ich praktisch umsetzten kann?",
+            "question": "Beinhaltete die Predigt, was ich praktisch umsetzten kann?",
             "rating": {
                 "type": "linear",
                 "scala": ["nein", "so ungefähr", "ja", "ausführlich", "sehr ausführ."]
