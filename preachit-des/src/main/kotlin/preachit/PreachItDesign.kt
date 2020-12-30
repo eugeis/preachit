@@ -80,18 +80,18 @@ object PreachIt : Module({ namespace("preachit") }) {
 
         object Handler : AggregateHandler() {
             object Initial : State({
-                executeAndProduce(create())
-                handle(eventOf(create())).ifTrue(disabled.yes()).to(Disabled)
-                handle(eventOf(create())).ifFalse(disabled.yes()).to(Enabled)
+                executeAndProduce(commandCreate())
+                handle(eventOf(commandCreate())).ifTrue(disabled.yes()).to(Disabled)
+                handle(eventOf(commandCreate())).ifFalse(disabled.yes()).to(Enabled)
             })
 
             object Exist : State({
                 virtual()
-                executeAndProduce(update())
-                handle(eventOf(update()))
+                executeAndProduce(commandUpdate())
+                handle(eventOf(commandUpdate()))
 
-                executeAndProduce(delete())
-                handle(eventOf(delete())).to(Deleted)
+                executeAndProduce(commandDelete())
+                handle(eventOf(commandDelete())).to(Deleted)
             })
 
             object Disabled : State({
@@ -111,9 +111,9 @@ object PreachIt : Module({ namespace("preachit") }) {
 
         object AccountConfirmation : ProcessManager() {
             object Initial : State({
-                executeAndProduce(create())
-                handle(eventOf(create())).ifTrue(disabled.yes()).to(Disabled)
-                handle(eventOf(create())).ifFalse(disabled.yes()).to(Enabled)
+                executeAndProduce(commandCreate())
+                handle(eventOf(commandCreate())).ifTrue(disabled.yes()).to(Disabled)
+                handle(eventOf(commandCreate())).ifFalse(disabled.yes()).to(Enabled)
             })
 
             object Disabled : State({
