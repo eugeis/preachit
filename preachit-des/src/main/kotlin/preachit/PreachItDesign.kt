@@ -109,7 +109,7 @@ object PreachIt : Module({ namespace("preachit") }) {
             object Deleted : State()
         }
 
-        object AccountConfirmation : ProcessManager() {
+        object AccountConfirmation : Saga() {
             object Initial : State({
                 executeAndProduce(commandCreate())
                 handle(eventOf(commandCreate())).ifTrue(disabled.yes()).to(Disabled)
