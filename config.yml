@@ -1,11 +1,11 @@
-baseURL: https://preachit.reguel.com
+baseURL: https://preachit.reguel.de
 
 languageCode: de-De
 title: Predigtbewertung
 theme: hugo-feedback-theme
 
 params:
-  emailbridge: https://emailbridge.reguel.com
+  emailbridge: https://emailbridge.reguel.de
   showKeyword: false
 
 
